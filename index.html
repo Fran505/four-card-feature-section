@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Four card feature section</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- I'll try 2 span. I hope this will help to give different styles to the h1 -->
+  <!-- I'm trying to learn bem methodology, if you can give me advice about this i will be happy  -->
+</head>
+
+<body>
+  <header>
+    <h1>
+      <span class="title title--thin">Reliable, efficient delivery</span>
+      <span class="title title--bold">Powered by Technology</span>
+    </h1>
+    <p class="title--small">
+      Our Artificial Intelligence powered tools use millions of project dat <br> points
+      to ensure that your project is successful
+    </p>
+  </header>
+  <!-- All cards inside a full general container divided /3 by cold-->
+  <main>
+    <div class="container">
+      <!-- 1st card -->
+      <div class="col col__left">
+        <div class="card card__supervisor">
+          <h3 class="card__title">Supervisor</h3>
+          <p class="text card__text">Monitors activity to identify project <br> roadblocks
+          </p>
+          <img class="icon" src="assets/images/icon-supervisor.svg" alt="supervisor picture">
+        </div>
+      </div>
+      <!-- 2nd card and 3rd card-->
+      <div class="col col__center">
+        <div class="card card__teambuilder">
+          <h3 class="card__title">Team Builder</h3>
+          <p class="text card__text">Scans our talent network to create the <br> optimal team for your project
+          </p>
+          <img class="icon" src="assets/images/icon-team-builder.svg" alt="teambuilder picture">
+        </div>
+
+        <div class="card card__karma">
+          <h3 class="card__title">Karma</h3>
+          <p class="text card__text">Regularly evaluates our talent to ensure <br> quality
+          </p>
+          <img class="icon" src="assets/images/icon-karma.svg" alt="karma picture">
+        </div>
+      </div>
+      <!-- 4th card -->
+      <div class="col col__right">
+        <div class="card card__calculator">
+          <h3 class="card__title">Calculator</h3>
+          <p class="text card__text">Uses data from past projects to provide <br>better delivery estimates</p>
+          <img class="icon" src="assets/images/icon-calculator.svg" alt="Calculator picture">
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- frontend mentor code -->
+  <footer class="footer">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Francisco Montoya</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
